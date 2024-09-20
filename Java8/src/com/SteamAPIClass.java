@@ -12,7 +12,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
-public class MainClass {
+public class SteamAPIClass {
 
 	public static void main(String[] args) {
 		List<Integer>numbers = Arrays.asList(80,150,100,90);
