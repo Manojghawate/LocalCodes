@@ -6,9 +6,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties({"laptopPassword","lockerPassword"})
 public class EmployeeForFiltering {
+	//change property name in response/json conversion.
 	@JsonProperty("Employee_Name")
 	private String name;
 	private int id;
+	//ignore/exclude property in response/json conversion.
 	@JsonIgnore
 	private String entryPassword;
 	private String laptopPassword;

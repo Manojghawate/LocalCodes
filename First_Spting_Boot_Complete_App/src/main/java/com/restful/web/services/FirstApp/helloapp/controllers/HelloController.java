@@ -9,7 +9,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+/**
+ * @author manoj.ghawate
+ * 
+ * This controller gives the example of internationalization.
+ * Using MessageSource and Accept-Language header in request we can achieve i18n
+ */
 @RestController
 @RequestMapping("/api/hello-app/")
 public class HelloController {

@@ -21,6 +21,7 @@ public class User {
 	@Id
 	@GeneratedValue
 	private int userId;
+	//validation Annotation
 	@Size(min = 2, max = 10, message = "Name lenght should be min 2 and max 10")
 	private String name;
 	@Past

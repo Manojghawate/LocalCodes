@@ -11,8 +11,16 @@ import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
 import com.restful.web.services.FirstApp.helloapp.dtos.EmployeeForDynamicFiltering;
 import com.restful.web.services.FirstApp.helloapp.dtos.EmployeeForFiltering;
 
+/**
+ * @author manoj.ghawate
+ * 
+ * This controller show the filtering examples
+ * Filtering means we can remove unwanted fields from response using annotation
+ * Static and dynamic both the ways of filtering explained below.
+ */
 @RestController
 @RequestMapping("/api/filtering")
+
 public class FilteringController {
 	@GetMapping
 	public EmployeeForFiltering filter() {

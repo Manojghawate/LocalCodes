@@ -6,7 +6,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.restful.web.services.FirstApp.helloapp.dtos.PersonV1;
 import com.restful.web.services.FirstApp.helloapp.dtos.PersonV2;
-
+/**
+ * @author manoj.ghawate
+ * 
+ * This controller shows how we can maintain the API version.
+ * 1.Maintain different urls
+ * 2.Add request parameter in url.
+ * 3.Maintain the custom header.
+ * 4.Maintain user define MIME_TYPE and use as an accepts header in request and produces on API methods.
+ * NOTE: None of the above is ideal way of API versioning each one has its own pros and cons. So we can use one of the above as per our convenience.
+ */
 @RestController
 @RequestMapping("/api")
 public class VersioningController {

@@ -23,7 +23,12 @@ import com.restful.web.services.FirstApp.helloapp.repoordao.entities.Post;
 import com.restful.web.services.FirstApp.helloapp.services.UserService;
 
 import jakarta.validation.Valid;
-
+/**
+ * @author manoj.ghawate
+ * 
+ * This controller elaborates the API naming standards and conventions
+ * Ideal way to get request parameters and ideal way to sending API response.
+ */
 @RestController
 @RequestMapping("api/users")
 public class UserController {
